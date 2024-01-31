@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html {
+  background-color: black;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  background-color: white;
+  width: 480px;
+  margin: 26px auto;
+}
+
+.first-container {
+  background-color: #1f2937;
+}
+
+header {
+  display: flex;
+  padding-top: 10px;
+}
+
+header h5 {
+  padding: 0;
+  margin: 0 130px 0 60px;
+  font-size: 8px;
+  color: #f9faf8;
+}
+
+header small {
+  margin-right: 20px;
+  font-size: 8px;
+  color: #f9faf8;
+}
+
+#text {
+  width: 170px;
+  height: 150px;
+  margin-left: 75px;
+}
+
+#text h2 {
+  color: #f9faf8;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+#text small {
+  font-size: 7px;
+  color: #f9faf88f;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+#text button {
+  font-size: 10px;
+  display: block;
+  margin-top: 4px;
+  border-radius: 3px;
+  border: none;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 3px 6px;
+}
+
+#flex-container {
+  display: flex;
+}
+
+#image {
+  background-color: gray;
+  margin-top: 30px;
+  margin-left: 29px;
+  width: 170px;
+  height: 90px;
+}
+
+#image p {
+  margin: 40px auto;
+  text-align: center;
+  font-size: 8px;
+  color: #f9faf8a9;
+}
+
+.second-container {
+  padding: 0 70px;
+  padding-bottom: 30px;
+}
+
+.second-container h4 {
+  text-align: center;
+  font-size: 12px;
+}
+
+.second-container .ctn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.second-container .illustration {
+  border: 1px solid #6f99dd;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.second-container small {
+  font-size: 8px;
+  line-height: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.third-container {
+  padding: 20px 90px;
+  background-color: #e5e7eb;
+}
+
+.third-container i {
+  font-size: 12px;
+  color: rgb(34, 34, 34);
+}
+
+.third-container small {
+  display: block;
+  text-align: right;
+  font-size: 8px;
+  padding-top: 13px;
+}
+
+.fourth-container {
+  background-color: #3882f6;
+  width: 400px;
+  margin: 20px auto;
+  border-radius: 3px;
+}
+
+.fourth-container p {
+  color: #f9faf8;
+  padding-left: 60px;
+  padding-top: 20px;
+  margin-bottom: 0;
+  font-size: 9px;
+}
+
+.fourth-container small {
+  padding-left: 60px;
+  padding-top: 0;
+  color: #f9faf8;
+  font-size: 7px;
+  padding-bottom: 20px;
+  margin-right: 90px;
+}
+
+.fourth-container button {
+  width: 50px;
+  height: 20px;
+  font-size: 9px;
+  border-radius: 2px;
+  border: none;
+  margin-bottom: 12px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 5px;
+  text-align: center;
+  padding: 12px 0;
+}
